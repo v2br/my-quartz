@@ -2,7 +2,7 @@ name: Deploy Quartz v4.5.1+ to GitHub Pages
 
 on:
   push:
-    branches: [main]  # Change if your branch is named differently (e.g., v4)
+    branches: [main]
 
 permissions:
   contents: write
@@ -29,11 +29,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build Quartz site
-        run: npm run build
+      - name: Build Quartz site with Quartz CLI
+        run: npx quartz build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./public
