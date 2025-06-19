@@ -2,6 +2,7 @@
 share: "true"
 tags:
   - pm
+title: 03_Project scope
 ---
 
 Understanding Project Scope
@@ -37,4 +38,5 @@ Scope Creep
 Managing Scope Creep
 
 - To combat scope creep, ensure stakeholders have visibility into project details and set clear expectations.
+- 
 - Document agreements on change requests and maintain clarity on project requirements to minimize risks.

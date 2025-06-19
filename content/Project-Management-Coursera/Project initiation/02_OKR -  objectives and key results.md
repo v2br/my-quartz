@@ -1,5 +1,5 @@
 ---
-title: 3. OKR -  objectives and key results.
+title: OKR.
 share: "true"
 created: 2025-06-09
 tags:
@@ -64,4 +64,4 @@ https://www.whatmatters.com/resources/google-okr-playbook
 
 
 [IBM OKR](https://www.apptio.com/resources/ebooks/leading-your-organization-with-okrs/?utm_source=google&utm_campaign=agile-multi_ams-multi-en_high-intent_phrase&utm_medium=cpc&utm_term=okr%20strategy&gad_source=1&gad_campaignid=20933995603&gbraid=0AAAAAD3zgNNIaWCzwoj4eV8FryK-qTGWN&gclid=Cj0KCQjwuvrBBhDcARIsAKRrkjcvtAKAXsz76gsOsKsC8sSd0bvmg56W8p3m2ewfJooUmVPWhe6XcUkaAkZjEALw_wcB) 
-**Related**:  [[SMART goals]] [[5. Project success]]
+**Related**:  [[01_SMART goals]] [[05_Project success]]

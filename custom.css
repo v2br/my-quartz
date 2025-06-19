@@ -1,0 +1,4 @@
+/* ✅ Hide the right-side file list (pageList sidebar) on folder pages */
+.folder-page aside.pageList {
+  display: none;
+}

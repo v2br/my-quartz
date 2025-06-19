@@ -7,6 +7,6 @@ tags:
 Welcome to my project management notes
 Project initiation 
 [[1. Key Components of Project Initiation]]
-[[SMART goals]]
-[[3. OKR -  objectives and key results.]]
-[[4. Project scope]]
+[[01_SMART goals]]
+[[02_OKR -  objectives and key results]]
+[[03_Project scope]]

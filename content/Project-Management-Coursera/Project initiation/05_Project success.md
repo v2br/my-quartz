@@ -2,7 +2,7 @@
 share: "true"
 tags:
   - pm
-title: 5. Project success
+title: Project success
 ---
 
 To measure the success of a product, consider including these metrics on your checklist: 
@@ -42,5 +42,24 @@ Defining success criteria tells you whether or not the project was successful. A
 | _[Add metric]_                   | Goal:                                           | Actual: |
 | _[Add metric]_                   | Goal:                                           | Actual: |
 | **Sign-offs**                    | - Name / Date<br>- Name / Date<br>- Name / Date |         |
+
+```mermaid
+flowchart TD
+    A[Text Prompt] --> B[Tokenizati]
+    B --> C[Token IDs]
+    C --> D[Embedding Layer]
+    D --> E1[Self-Attention - causal]
+    E1 --> E2[Feedforward Network]
+    E2 --> E3[Residual and LayerNorm]
+    E3 --> F[Output Projection - logits]
+    F --> G[Decoding - greedy, top-k, etc]
+    G --> H[Next Token]
+    H --> I{Stop Generation?}
+    I -- No --> J[Append Token to Input]
+    J --> E1
+    I -- Yes --> Z[Final Output Text]
+    
+    click A "Prompts" "Prompts"
+```
 
 - ![[Same Project, Different Perspectives, PMI.pdf]]
