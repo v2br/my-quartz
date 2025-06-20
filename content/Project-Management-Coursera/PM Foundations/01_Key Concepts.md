@@ -36,4 +36,4 @@ Key Takeaway
 
 ![Pasted image 20250514120413.png](app://6236f5d9f2e402b73985d054de8de9a3582d/Users/vbr/Documents/ObsidianWIKI/VBV/Pasted%20image%2020250514120413.png?1747249453541)
 
-**Related notes:** [[The project life cycle]] [[Key Concepts]]
+**Related notes:** [[The project life cycle]] [[01_Key Concepts]]
