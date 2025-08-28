@@ -2,7 +2,7 @@
 share: "true"
 title: index
 tags:
-  - project-management
+  - pm
 ---
 Welcome to my project management notes
 Project initiation 

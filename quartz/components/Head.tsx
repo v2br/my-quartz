@@ -40,9 +40,6 @@ export default (() => {
       <head>
         <title>{title}</title>
         <meta charSet="utf-8" />
-        {/* VBE  Add this inside the <head> section */}
-        <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.3"></script>
-        {/* VBE   */} 
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -100,6 +97,9 @@ export default (() => {
             return resource
           }
         })}
+        {/* VBE  Add this inside the <head> section */}
+        <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.3"></script>
+        {/* VBE   */} 
       </head>
     )
   }
